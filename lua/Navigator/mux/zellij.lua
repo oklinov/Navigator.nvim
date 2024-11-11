@@ -34,8 +34,8 @@ function Zellij:new()
         direction = {
             p = 'focus-previous-pane',
             h = 'move-focus-or-tab left',
-            j = 'move-focus-or-tab down',
-            k = 'move-focus-or-tab up',
+            j = 'move-focus down',
+            k = 'move-focus up',
             l = 'move-focus-or-tab right',
         },
     }
