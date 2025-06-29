@@ -33,10 +33,10 @@ function Zellij:new()
         end,
         direction = {
             p = 'focus-previous-pane',
-            h = 'move-focus-or-tab left',
+            h = 'move-focus left',
             j = 'move-focus down',
             k = 'move-focus up',
-            l = 'move-focus-or-tab right',
+            l = 'move-focus right',
         },
     }
     self.__index = self
